@@ -1,0 +1,10 @@
+D:\GitHub\paradygmaty-programowania\bin\Debug\paradygmaty-programowania.exe.config
+D:\GitHub\paradygmaty-programowania\bin\Debug\paradygmaty-programowania.exe
+D:\GitHub\paradygmaty-programowania\bin\Debug\paradygmaty-programowania.pdb
+D:\GitHub\paradygmaty-programowania\obj\Debug\paradygmaty-programowania.csproj.AssemblyReference.cache
+D:\GitHub\paradygmaty-programowania\obj\Debug\paradygmaty_programowania.Form1.resources
+D:\GitHub\paradygmaty-programowania\obj\Debug\paradygmaty_programowania.Properties.Resources.resources
+D:\GitHub\paradygmaty-programowania\obj\Debug\paradygmaty-programowania.csproj.GenerateResource.cache
+D:\GitHub\paradygmaty-programowania\obj\Debug\paradygmaty-programowania.csproj.CoreCompileInputs.cache
+D:\GitHub\paradygmaty-programowania\obj\Debug\paradygmaty-programowania.exe
+D:\GitHub\paradygmaty-programowania\obj\Debug\paradygmaty-programowania.pdb
