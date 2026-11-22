@@ -61,61 +61,31 @@ namespace paradygmaty_programowania
             {
                 if (comboBox1.Text == "BinarySearch")
                 {
-                    try
-                    {
-                        pictureBox1.Image = System.Drawing.Image.FromFile("D:\\GitHub\\paradygmaty-programowania\\Pictures\\Binary Search.png");
-                    }
-                    catch(FileNotFoundException)
-                    {
-                        Console.WriteLine(e);
-                    }
+                    LoadSearchImage("Binary Search.png");
                 }
                 else if (comboBox1.Text == "JumpSearch")
                 {
-
-                    try
-                    {
-                        pictureBox1.Image = System.Drawing.Image.FromFile("D:\\GitHub\\paradygmaty-programowania\\Pictures\\JumpSearch.png");
-                    }
-                    catch (FileNotFoundException)
-                    {
-                        Console.WriteLine(e);
-                    }
+                    LoadSearchImage("JumpSearch.png");
                 }
                 else if (comboBox1.Text == "InterpolationSearch")
                 {
-                    try
-                    {
-                        pictureBox1.Image = System.Drawing.Image.FromFile("D:\\GitHub\\paradygmaty-programowania\\Pictures\\InterpolationSearch.png");
-                    }
-                    catch (FileNotFoundException)
-                    {
-                        Console.WriteLine(e);
-                    }
+                    LoadSearchImage("InterpolationSearch.png");
                 }
                 else if (comboBox1.Text == "MultiThreadingSearch")
                 {
-                    try
-                    {
-                        pictureBox1.Image = System.Drawing.Image.FromFile("D:\\GitHub\\paradygmaty-programowania\\Pictures\\MultiThreadSearch.png");
-                    }
-                    catch (FileNotFoundException)
-                    {
-                        Console.WriteLine(e);
-                    }
+                    LoadSearchImage("MultiThreadSearch.png");
                 }
             }
             else
             {
-                try
-                {
-                    pictureBox1.Image = System.Drawing.Image.FromFile("D:\\GitHub\\paradygmaty-programowania\\Pictures\\LinearSearch.png");
-                }
-                catch (FileNotFoundException)
-                {
-                    Console.WriteLine(e);
-                }
+                LoadSearchImage("LinearSearch.png");
             }
+        }
+
+        private void LoadSearchImage(string imageName)
+        {
+            string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Pictures", imageName);
+            pictureBox1.Image = System.Drawing.Image.FromFile(imagePath);
         }
 
         public void LinearSearch(int[] arr, int x)
